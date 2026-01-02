@@ -506,6 +506,28 @@ header{
     color: rgb(0, 0, 0);
 }
 
+/* Checkout Form Styling */
+#checkoutModal .form-group {
+    margin-bottom: 15px;
+}
+
+#checkoutModal .form-group input,
+#checkoutModal .form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#checkoutModal .form-group input:focus,
+#checkoutModal .form-group textarea:focus {
+    border-color: rgb(0, 107, 221);
+    box-shadow: 0 0 6px rgba(0, 107, 221, 0.2);
+}
+
 .empty-cart {
     text-align: center;
     padding: 40px;
